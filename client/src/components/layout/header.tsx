@@ -14,6 +14,7 @@ export default function Header() {
     { path: "/community", label: "Community" },
     { path: "/tracking", label: "Tracking" },
     { path: "/services", label: "Campus Services" },
+    { path: "/chatbot", label: "ChatBot" },
   ];
 
   const isActive = (path: string) => {
