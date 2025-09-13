@@ -14,7 +14,7 @@ import Services from "@/pages/services";
 import Header from "@/components/layout/header";
 import CrisisBanner from "@/components/layout/crisis-banner";
 import { useEffect } from "react";
-import Bot from './chatbot/Bot'
+import Bot from './components/chatbot/Bot'
 function Router() {
   return (
     <Switch>

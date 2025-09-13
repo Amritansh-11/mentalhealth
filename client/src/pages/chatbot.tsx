@@ -1,5 +1,5 @@
 import React from "react";
-import Bot from "../chatbot/Bot"; // adjust the path if needed
+import Bot from "../components/chatbot/Bot"; // adjust the path if needed
 
 const ChatbotPage: React.FC = () => {
   return (
