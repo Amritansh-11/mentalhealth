@@ -14,7 +14,7 @@ import Services from "@/pages/services";
 import Header from "@/components/layout/header";
 import CrisisBanner from "@/components/layout/crisis-banner";
 import { useEffect } from "react";
-import Bot from './chatbot/Bot'
+import Bot from './components/chatbot/Bot'
 function Router() {
   return (
     <Switch>
@@ -24,6 +24,7 @@ function Router() {
       <Route path="/community" component={Community} />
       <Route path="/tracking" component={Tracking} />
       <Route path="/services" component={Services} />
+      <Route path="/chatbot" component={Bot} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -41,7 +42,6 @@ function App() {
         <div className="min-h-screen bg-background text-foreground">
           <CrisisBanner />
           <Header />
-          <Bot/>
           <Router />
           <footer className="bg-muted mt-16 py-8 px-4">
             <div className="max-w-6xl mx-auto">
