@@ -14,15 +14,15 @@ export default function WelcomeHero() {
           <div className="flex flex-wrap gap-4">
             <Link href="/assessment">
               <Button className="bg-white text-primary hover:bg-white/90" data-testid="button-quick-assessment">
-                <i className="fas fa-clipboard-check mr-2"></i>Quick Assessment
+                <i className="fas fa-clipboard-check"></i>Quick Assessment
               </Button>
             </Link>
             <Button 
               variant="outline" 
-              className="border-white/30 text-white hover:bg-white/10"
+              className="border-white/30 text-white bg-inherit hover:bg-white/10 hover:text-black"
               data-testid="button-crisis-resources"
             >
-              <i className="fas fa-phone mr-2"></i>Crisis Resources
+              <i className="fas fa-phone"></i>Crisis Resources
             </Button>
           </div>
         </div>
