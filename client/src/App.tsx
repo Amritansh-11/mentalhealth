@@ -31,9 +31,12 @@ function Router() {
 }
 
 function App() {
+  const root = window.document.documentElement;
   useEffect(() => {
     // Initialize anonymous session
     getAnonymousSession();
+    root.classList.add('dark');
+
   }, []);
 
   return (
